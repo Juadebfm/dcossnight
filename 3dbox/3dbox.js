@@ -6,7 +6,8 @@ function createBoxes() {
         for(let j = 0; j < 4; j++) {
             const box = document.createElement('div')
             box.classList.add('box')
-            box.style.backgroundPosition = ``
+            box.style.backgroundPosition = `${-j * 125} ${-1 * 125}`
+            boxesContainer.appendChild(box)
         }
     }
 }
