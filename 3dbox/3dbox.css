@@ -54,7 +54,7 @@ body {
   height: 600px;
 }
 
-.boxes.big {
+.boxes.big .box {
   transform: rotateZ(360deg);
 }
 
